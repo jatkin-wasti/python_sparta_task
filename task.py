@@ -12,7 +12,7 @@ last_name = input("Please enter your last name:  ").capitalize()
 ni_num = input("Please enter your National Insurance number:  ").upper()
 
 # Receiving the user input for their house number and storing it as a string in the house_number variable
-house_number = input("Please enter your house number:  ")  # No need to modify this input
+house_number = int(input("Please enter your house number:  "))  # No need to modify this input
 # Receiving the user input for the first line of their address and storing it as a string in the
 # house_number variable, ensuring that the first letter in the address is capitalised
 first_line_address = input("Please enter the first line of your address:  ").capitalize()
@@ -28,7 +28,7 @@ recent_education = input("Please enter your most recent form of education:  ").c
 print(f"Welcome to Sparta, {first_name} {middle_name} {last_name}!")
 print(f"Your National Insurance number is: {ni_num}")
 print(f"To confirm, your address is as shown:\n"
-      f"{house_number} {first_line_address}\n"
+      f"{str(house_number)} {first_line_address}\n"
       f"{post_code}")
 print(f"You are enrolling on the {course} course, and your most recent form of education "
       f"was {recent_education}.")

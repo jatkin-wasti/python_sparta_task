@@ -14,8 +14,8 @@ ni_num = input("Please enter your National Insurance number:  ").upper()
 # Receiving the user input for their house number and storing it as a string in the house_number variable
 house_number = int(input("Please enter your house number:  "))  # No need to modify this input
 # Receiving the user input for the first line of their address and storing it as a string in the
-# house_number variable, ensuring that the first letter in the address is capitalised
-first_line_address = input("Please enter the first line of your address:  ").capitalize()
+# house_number variable, ensuring that the first letter of each word in the address is capitalised with title
+first_line_address = input("Please enter the first line of your address:  ").title()
 # Receiving the user input for their post code and storing it as a string in the post_code variable
 post_code = input("Please enter your Post Code:  ").upper()  # Post codes are generally all upper case
 

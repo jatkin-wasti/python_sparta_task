@@ -40,9 +40,9 @@
 # Display data in reverse order of hobby list
 # First we create the dictionary with general information, including an incorrect date of birth
 trainee_dictionary = {
-    "name": "Jamie Atkin-Wasti",
-    "date_of_birth": "16/10/19997",
-    "address": "54a Highfield Avenue NW9 0PY",
+    "name": "Dave Smith",
+    "date_of_birth": "14/03/19994",
+    "address": "78b Hilltop Street XL7 G8Y",
     "course": "DevOps",
     "grades": [80, 68]
 }
@@ -51,7 +51,7 @@ trainee_dictionary["hobbies"] = ["Bouldering", "Dungeons and Dragons", "Baking"]
 # We can delete a key value pair with the del method which in this case deletes the course key value pair
 del trainee_dictionary["course"]
 # We can correct the date of birth by selecting the key and assigning it the corrected value
-trainee_dictionary["date_of_birth"] = "16/10/1997"
+trainee_dictionary["date_of_birth"] = "16/10/1994"
 # Looping through all of the values stored in the trainee_dictionary and printing out their types
 # Remember that we got rid of "course" and added "hobbies" so there will be one fewer string and one more list!
 for _ in trainee_dictionary.values():

@@ -19,4 +19,5 @@ print(devops_students.keys())  # This prints out all of the keys stored in the d
 print(devops_students.values())  # This prints out all of the values stored in the dictionary
 # This prints out the entire list stored in the "completed_lesson_names" key
 print(devops_students["completed_lesson_names"])
+# This accesses the second index in the list stored in the "completed_lesson_names" key
 print(devops_students["completed_lesson_names"][1])

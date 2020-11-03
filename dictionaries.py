@@ -58,3 +58,9 @@ for _ in trainee_dictionary.values():
     print(type(_))
 # Finally we print out the hobbies in reverse order
 print(trainee_dictionary["hobbies"][::-1])
+
+# Adding and removing to lists inside dictionaries
+trainee_dictionary["hobbies"].append("Running")  # Can add an item to the list in the "hobbies" key
+print(trainee_dictionary)
+trainee_dictionary["hobbies"].remove("Running")  # Can remove the item from the list in the "hobbies" key
+print(trainee_dictionary)

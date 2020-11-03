@@ -1,13 +1,20 @@
 # Task: Take user input details for a new Spartan
 ## Solution
-
+We use the input() function to obtain a users 
+input. We store this information in a series of 
+logically named variables. Where appropriate we 
+use the capitalise() function to make sure that 
+strings begin with a capital letter. In certain 
+cases, such as with an NI number, we instead use 
+the upper() function to make sure the entire 
+string is capitalised. We then use f strings to
+concatenate a message with the values we've been 
+given by the user.
 ## Acceptance Criteria
-- 
-- 
-- 
-- 
-- 
-- 
+- Take trainee date from user
+- Ensure the first letter of each string is capital
+- Use casting to change data type
+- Ensure to take the appropriate data type in
 
 ## DoD (Definition of Done)
 - Must have 3 commits
